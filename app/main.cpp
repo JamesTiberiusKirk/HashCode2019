@@ -15,19 +15,20 @@ size_t split(const string &txt, vector<string> &strs, char ch)
     }
 
     // Add the last one
-    strs.push_back( txt.substr( initialPos, min( pos, txt.size() ) - initialPos + 1 ) );
-
+    strs.push_back( txt.substr( initialPos, min( pos, txt.size() ) - initialPos + 1 ) )
     return strs.size();
 }
 
 int main()
 {
-    cout << "Hello HashCode\n";
-    vector<string> test;
-    split("Hello Hash Code", test, ' ');
+    SlideData originalData;
+    vector<string> outputData;
 
-    for (string i : test){
-      cout<<i<<endl;
+    for(vector<string> i : originalData){
+      /*if(){
+
+      }*/
     }
+
     return 0;
 }
