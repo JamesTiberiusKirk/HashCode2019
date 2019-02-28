@@ -8,9 +8,12 @@ int main()
 {
     cout << "Hello HashCode\n";
 
-    ofstream picFile;
+    ifstream picFile;
     picFile.open("../example_data/a_example.txt");
 
+    if (){
+
+    }
 
     picFile.close();
     return 0;
